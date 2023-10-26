@@ -240,7 +240,7 @@ header nav .form i{
     }
 }
 .landing .fa-angle-left{
-    left: 30;
+    left: 11px;
 }
 .landing .fa-angle-right{
    right: 30px;
@@ -815,6 +815,11 @@ margin-bottom: 50px;
     margin-top: 21px;
     text-decoration: none;
 }
+@media (max-width:767px) {
+    .Pricing .foot a{
+        margin-left: 35%;
+    }
+}
 
 .Pricing .contact-text {
     text-align: center;
@@ -828,6 +833,11 @@ margin-bottom: 50px;
     padding: 15px;
     text-decoration: none;
     color: white;
+}
+@media (max-width:767px) {
+    .Pricing .Contact-link{
+        margin-left: 35%;
+    }
 }
 
 .subscribe{
@@ -859,6 +869,11 @@ margin-bottom: 50px;
      margin-left: -46%;
 }
 }
+/* @media (min-width:992px)and (max-width:1200px) {
+    .subscribe .container{
+        margin-left: -3%;
+    }
+} */
 .subscribe .container form{
 position: relative;
 display: flex;
@@ -878,7 +893,17 @@ caret-color: var(--main-color);
 /* width:calc(100% - 130px); */
 border-right: none;
 
+}   
+@media (max-width:991px) 
+{
+    .subscribe .container form input[type="email"] {
+        margin-left: -39%;
+    }
+    .subscribe .container form i{
+        transform: translateX(-15px);
+    }
 }
+
 
 .contact{
     padding-top: var(--section-padding);
@@ -927,7 +952,11 @@ border-right: none;
         order: -1;
         text-align: center;
         margin-bottom: 21px;
+    }  
+    .contact form input[type="submit"]{
+        margin-left: 38%;
     }
+     
 }
 .contact .content .info h4{
     margin-bottom: 12px;
@@ -966,6 +995,11 @@ border-left: none;
 .subscribe p{
     margin-left: 32%;
     line-height: 1.5;
+}
+@media(max-width:767px) {
+    .subscribe p{
+        margin-top: 10px;
+    }
 }
 @media(max-width:991) {
     .subscribe p{
