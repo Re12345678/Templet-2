@@ -304,8 +304,10 @@ display: flex;
 }
 @media (max-width:767px) {
     .section .serv p{
-        /* width: 148%;
-        margin-left: -41px; */
+        width: 147%;
+    text-align: center;
+    overflow-x: hidden;
+    margin-left: -20%;
     }
 }
 .section .serv h3{
@@ -897,7 +899,8 @@ border-right: none;
 @media (max-width:991px) 
 {
     .subscribe .container form input[type="email"] {
-        margin-left: -39%;
+        margin-left: -33%;
+        width: 209px;
     }
     .subscribe .container form i{
         transform: translateX(-15px);
